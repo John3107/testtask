@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #FFF;
+
+  .main {
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 34px;
+    padding: 13px 0;
+    @media(max-width: 1025px) {
+      padding: 13px 5.8%;
+    }
+    @media(max-width: 769px) {
+      padding: 13px 4.1%;
+    }
+    @media(max-width: 361px) {
+      padding: 13px 4.5%;
+    }
+
+    .buttons {
+      display: flex;
+
+      button:first-of-type {
+        margin-right: 10px;
+        padding: 4px 29px;
+      }
+    }
+  }
+}
