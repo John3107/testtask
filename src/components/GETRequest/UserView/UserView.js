@@ -8,7 +8,7 @@ const UserView = props => {
 
     return <div className={style.userView}>
         <img src={checkedPhoto} alt="photo" className={style.avatar}/>
-        <span className={style.name}>{name}</span>
+        <span>{name}</span>
         <span>{position}</span>
         <span>{email}</span>
         <span>{phone}</span>

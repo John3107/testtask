@@ -18,12 +18,22 @@ const GETRequest = () => {
             })
     }, [])
 
+    const showMoreHandler = () => {
+        testAssignmentAPI.getUsers(users.length + 6)
+            .then((res) => {
+                setUsers(res.data.users)
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
+
     return <div className={style.get}>
         <span className={style.title}>Working with GET request</span>
         <div className={style.usersContainer}>
             {users.map(el => <UserView user={el} key={el.id}/>)}
         </div>
-        <ButtonBase title={'Show more'}/>
+        <ButtonBase title={'Show more'} onClickHandler={showMoreHandler}/>
     </div>
 
 }

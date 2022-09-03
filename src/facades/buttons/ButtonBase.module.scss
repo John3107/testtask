@@ -11,4 +11,9 @@ button {
     background: #FFE302;
     cursor: pointer;
   }
+  &:disabled{
+    color: #FFF;
+    background: #B4B4B4;
+    cursor: auto;
+  }
 }

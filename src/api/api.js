@@ -12,4 +12,7 @@ export const testAssignmentAPI = {
     getUsers(numUsers) {
         return instance.get(`users?page=1&count=${numUsers}`);
     },
+    setUsers(userData) {
+        return instance.post('users', {userData});
+    },
 }
