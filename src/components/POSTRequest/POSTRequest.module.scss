@@ -30,6 +30,11 @@
         line-height: 14px;
         color: #7E7E7E;
       }
+
+      .error {
+        position: absolute;
+        color: #CB3D40;
+      }
     }
 
     .inputCheckboxPart {
@@ -78,7 +83,8 @@
       input {
         padding: 14px 14px 14px 99px;
       }
-      .file{
+
+      .file {
         width: 267px;
         height: 26px;
         position: absolute;
@@ -87,6 +93,12 @@
         opacity: 0;
         z-index: 2;
         cursor: pointer;
+      }
+
+      .fileError {
+        position: absolute;
+        margin-top: 4px;
+        color: #CB3D40;
       }
     }
 
