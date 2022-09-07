@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/testtask/static/css/main.231b5d8b.css",
+    "main.js": "/testtask/static/js/main.99e1cc8d.js",
+    "static/js/787.f06850df.chunk.js": "/testtask/static/js/787.f06850df.chunk.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/testtask/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/successfully-registered.svg": "/testtask/static/media/successfully-registered.ca30b7bcbd32e2e7978fa82d54e9e60a.svg",
+    "static/media/logo.svg": "/testtask/static/media/logo.e67d6042f2b0eca2d2f66a31d3d3162c.svg",
+    "static/media/without-photo.svg": "/testtask/static/media/without-photo.3b9228b7c7e4372058144a2df21201f0.svg",
+    "index.html": "/testtask/index.html",
+    "main.231b5d8b.css.map": "/testtask/static/css/main.231b5d8b.css.map",
+    "main.99e1cc8d.js.map": "/testtask/static/js/main.99e1cc8d.js.map",
+    "787.f06850df.chunk.js.map": "/testtask/static/js/787.f06850df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231b5d8b.css",
+    "static/js/main.99e1cc8d.js"
+  ]
+}
