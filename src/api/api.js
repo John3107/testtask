@@ -12,6 +12,6 @@ export const testAssignmentAPI = {
         return instance.get(`users?page=1&count=${numUsers}`);
     },
     setUsers(userData, token) {
-        return instance.post('users', userData, { headers: { token } })
+        return instance.post('users', userData, {headers: {token}})
     }
 }

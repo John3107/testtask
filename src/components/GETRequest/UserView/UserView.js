@@ -19,7 +19,7 @@ const UserView = props => {
         <span data-tip={email}
               id="email"
               style={{cursor: email.length > 34 ? 'pointer' : null}}
-              onMouseEnter={() => email.length > 34  && setShowTooltip(true)}>{email}</span>
+              onMouseEnter={() => email.length > 34 && setShowTooltip(true)}>{email}</span>
         {showTooltip && <ReactTooltip border={false} place={'bottom'} className={style.tooltip}/>}
         <span>{phone}</span>
     </div>
