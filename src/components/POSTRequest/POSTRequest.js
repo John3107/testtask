@@ -8,7 +8,6 @@ import {newUserDataTC, setIsSubmittingAC, setNewUserDataAC} from "../../bll/app-
 import Preloader from "../../facades/preloader/Preloader";
 
 const POSTRequest = () => {
-
     const dispatch = useDispatch()
     const data = useSelector(state => state.app)
     const {request, isSuccessfullyRegistered, isSubmitting, isInitialized} = data

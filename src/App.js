@@ -5,6 +5,7 @@ import GETRequest from "./components/GETRequest/GETRequest";
 import POSTRequest from "./components/POSTRequest/POSTRequest";
 
 const App = () =>
+
     <div className={style.app}>
         <Header/>
         <TestAssignment/>

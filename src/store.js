@@ -5,4 +5,5 @@ import {appReducer} from "./bll/app-reducer"
 export const rootReducer = combineReducers({
     app: appReducer
 })
+
 export const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));

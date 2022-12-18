@@ -13,7 +13,6 @@ const initialState = {
     isSuccessfullyRegistered: false,
     isInitialized: 'loaded'
 }
-
 export const appReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'GET-USERS':

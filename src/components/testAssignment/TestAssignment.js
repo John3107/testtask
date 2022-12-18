@@ -3,6 +3,7 @@ import testAssignment from '../../assets/pexels-alexandr-podvalny-1227513.jpeg'
 import ButtonBase from "../../facades/buttons/ButtonBase"
 
 const TestAssignment = () =>
+
     <div className={style.test}>
         <img src={testAssignment} alt="test assignment"/>
         <div className={style.text}>

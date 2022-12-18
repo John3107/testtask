@@ -7,7 +7,6 @@ import {getUsersTC} from "../../bll/app-reducer";
 import Preloader from "../../facades/preloader/Preloader";
 
 const GETRequest = () => {
-
     const dispatch = useDispatch()
     const data = useSelector(state => state.app)
     const {users, isInitialized} = data

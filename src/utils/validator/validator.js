@@ -37,6 +37,7 @@ const photo = file => {
     return null;
 };
 
+
 export default {
     name,
     email,

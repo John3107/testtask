@@ -4,7 +4,6 @@ import ReactTooltip from "react-tooltip";
 import {useState} from "react";
 
 const UserView = props => {
-
     const {email, name, phone, photo, position} = props.user
     const checkedPhoto = photo.split('/')[5].split('.')[0] === 'placeholder' ? withoutPhoto : photo
     const [showTooltip, setShowTooltip] = useState(false)
