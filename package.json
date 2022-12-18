@@ -1,7 +1,7 @@
 {
-  "name": "testtask",
+  "name": "testtask-abz",
   "version": "0.1.0",
-  "homepage": "https://John3107.github.io/testtask/",
+  "homepage": "https://John3107.github.io/testtask-abz/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
